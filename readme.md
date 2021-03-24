@@ -33,7 +33,13 @@ Y este debe de ir al final del documento
 * *<= menor o igual*
 * *>= mayor o igual*
 * *== se deben de parecer*
-* *=== deben ser totalmente iguales*
+* *=== Los valores deben de ser del mismo tipo*
+* *!== Los valores deben de ser de direferentes tipos*
+
+
+
+* *&& esto es igual a Y* 
+* *|| esto es igual a O* 
 
 # Respuestas de datos
 * **undefined** = quiere decir que la variable no tiene valor
@@ -60,3 +66,12 @@ console.log(n3);
 
 Una funcion es un metodo es decir un trozo de codigo
 que tiene una funcion y que lo podemos reutilizar cuando queramos*/
+
+# Operaciones rapidas
+
+* num1 **+=** num2 ;
+* num1 **-=** num2 ;
+* num1 ***=** num2 ;
+* num1 **/=** num2 ;
+* num1 **++** ;
+* num1 **--** ;
