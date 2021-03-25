@@ -12,6 +12,6 @@ var nombre, edad ;
 nombre = prompt("introduce tu nombre");
 edad = prompt("introduce tu edad");
 
-while(edad < 0 || edad > 105 ){
+while(edad < 0 || edad > 105 || isNaN(edad) ){
     edad = prompt("introduce una edad valida!!!");
 }
