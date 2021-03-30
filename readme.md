@@ -75,3 +75,15 @@ que tiene una funcion y que lo podemos reutilizar cuando queramos*/
 * num1 **/=** num2 ;
 * num1 **++** ;
 * num1 **--** ;
+
+
+
+
+# Tipos de bucles
+
+* **Determinados** Son aquellos que sabemos cuantas veces se va a repetir lo que pidamos 
+
+    * Bucle for 
+* **indeterminados** Son aquellos que no sabemos cuantas veces se realizará un proceso 
+    * While 
+    * Do while
