@@ -24,19 +24,21 @@ tatsuma.onclick = function Sumar() {
 
 const tatrestar = document.getElementById("btnrestar");
 tatrestar.onclick = function Restar() {
-  if (Sumar) {
-    acumulado += parseInt(cifra);
+//   if (Sumar) {
+
+//     acumulado += parseInt(cifra);
+//     document.getElementById("Display").value = acumulado;
+
+//   } else if (Restar) {
+    acumulado = acumulado - parseInt(cifra);
     document.getElementById("Display").value = acumulado;
-  } else if (Restar) {
-    acumulado -= parseInt(cifra);
-    document.getElementById("Display").value = acumulado;
-  } else if (Multiplicar) {
-    acumulado *= parseInt(cifra);
-    document.getElementById("Display").value = acumulado;
-  } else if (Dividir) {
-    acumulado /= parseInt(cifra);
-    document.getElementById("Display").value = acumulado;
-  }
+//   } else if (Multiplicar) {
+//     acumulado *= parseInt(cifra);
+//     document.getElementById("Display").value = acumulado;
+//   } else if (Dividir) {
+//     acumulado /= parseInt(cifra);
+//     document.getElementById("Display").value = acumulado;
+//   }
 
   Dividir = false;
   Multiplicar = false;
@@ -69,7 +71,7 @@ tatdividir.onclick = function Dividir() {
 
 const tatresultado = document.getElementById("btnresultado");
 tatresultado.onclick = function Resultado() {
-  if (Sumar) {
+  if (Sumar == true) {
     document.getElementById("Display").value = acumulado + parseInt(cifra);
   } else if (Restar) {
     document.getElementById("Display").value = acumulado - parseInt(cifra);

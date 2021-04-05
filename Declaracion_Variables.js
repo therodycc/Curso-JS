@@ -25,3 +25,9 @@ let zapatos = {
 }
 
 
+// Diferencias entre VAR y LET
+
+// lET Solo cambia su valor dentro del mismo contexto 
+// VAR cambia a nivel general
+
+
