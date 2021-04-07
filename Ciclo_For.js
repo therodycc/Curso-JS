@@ -1,23 +1,23 @@
 // Ciclo_For
 
-for(let i = 1; i <= 5; i++ ){
-    console.log(i + " y  2");
-}
+// for(let i = 1; i <= 5; i++ ){
+//     console.log(i + " y  2");
+// }
 
 
 
-var DiasSemana = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
+// var DiasSemana = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
 
-for(var i = 0 ; i < 7; i++){
+// for(var i = 0 ; i < 7; i++){
 
-    console.log(DiasSemana[i]);
+//     console.log(DiasSemana[i]);
 
-}
-for(var i = 0 ; i < DiasSemana.length; i++){
+// }
+// for(var i = 0 ; i < DiasSemana.length; i++){
 
-    console.log(DiasSemana[i]);
+//     console.log(DiasSemana[i]);
 
-}
+// }
 
 
 
@@ -29,15 +29,16 @@ var persona = "";
 
 var contador= 0;
 
+
 while(persona != "Salir")
-{
-    persona = prompt("Trabajador a agregar");
-    
+{    persona = "paloma";
+    // persona = prompt("Trabajador a agregar");
     trabajadores[contador] = persona;
     contador++;
+    persona = "Salir";
 }
 
-trabajadores.pop();
+
 
 for(var i = 0 ; i < trabajadores.length ; i ++){
     console.log(trabajadores[i]);

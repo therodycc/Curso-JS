@@ -87,3 +87,8 @@ que tiene una funcion y que lo podemos reutilizar cuando queramos*/
 * **indeterminados** Son aquellos que no sabemos cuantas veces se realizará un proceso 
     * While 
     * Do while
+
+
+# Que es el DOOM
+
+El modelo de objeto de documento (DOM) proporciona otras formas de presentar, guardar y manipular este mismo documento. El DOM es una representación completamente orientada al objeto de la página web y puede ser modificado con un lenguaje de script como JavaScript.
